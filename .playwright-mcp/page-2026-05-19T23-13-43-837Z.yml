@@ -1,0 +1,204 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e48]: create a testimonial card component with a modern design
+            - img [ref=e51]
+          - generic [ref=e54]:
+            - img [ref=e57]
+            - generic [ref=e62]:
+              - generic [ref=e65]: str_replace_editor
+              - separator [ref=e66]
+              - generic [ref=e69]: str_replace_editor
+              - separator [ref=e70]
+              - generic [ref=e71]:
+                - paragraph [ref=e72]: "Done! Created a modern testimonial card component with:"
+                - list [ref=e73]:
+                  - listitem [ref=e74]:
+                    - strong [ref=e75]: Gradient backgrounds
+                    - text: with hover effects
+                  - listitem [ref=e76]:
+                    - strong [ref=e77]: Star ratings
+                    - text: using lucide-react icons
+                  - listitem [ref=e78]:
+                    - strong [ref=e79]: Smooth animations
+                    - text: on hover
+                  - listitem [ref=e80]:
+                    - strong [ref=e81]: Author info
+                    - text: with profile image
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Decorative elements
+                    - text: like quote marks and gradient dividers
+                  - listitem [ref=e84]:
+                    - strong [ref=e85]: Responsive grid layout
+                    - text: in the demo
+                - paragraph [ref=e86]:
+                  - text: The component accepts
+                  - code [ref=e175]: name
+                  - text: ","
+                  - code [ref=e176]: role
+                  - text: ","
+                  - code [ref=e177]: company
+                  - text: ","
+                  - code [ref=e178]: image
+                  - text: ","
+                  - code [ref=e179]: text
+                  - text: ", and"
+                  - code [ref=e180]: rating
+                  - text: props.
+          - generic [ref=e103]:
+            - generic [ref=e106]: "Create a simple pricing card component with three tiers: Free, Pro, and Enterprise"
+            - img [ref=e109]
+          - generic [ref=e134]:
+            - img [ref=e137]
+            - generic [ref=e142]:
+              - generic [ref=e145]: str_replace_editor
+              - separator [ref=e146]
+              - generic [ref=e149]: str_replace_editor
+              - separator [ref=e150]
+              - generic [ref=e151]:
+                - paragraph [ref=e152]: "Done! Created a pricing card component with:"
+                - list [ref=e153]:
+                  - listitem [ref=e154]:
+                    - strong [ref=e155]: Three tiers
+                    - text: (Free, Pro, Enterprise) with customizable content
+                  - listitem [ref=e156]:
+                    - strong [ref=e157]: Highlighted Pro tier
+                    - text: with scale effect and blue gradient
+                  - listitem [ref=e158]:
+                    - strong [ref=e159]: Feature lists
+                    - text: with checkmark icons
+                  - listitem [ref=e160]:
+                    - strong [ref=e161]: Flexible button variants
+                    - text: (primary/secondary)
+                  - listitem [ref=e162]:
+                    - strong [ref=e163]: Responsive design
+                    - text: that stacks on mobile
+                  - listitem [ref=e164]:
+                    - strong [ref=e165]: Smooth hover effects
+                    - text: and transitions
+                - paragraph [ref=e166]:
+                  - text: The component accepts
+                  - code [ref=e181]: tier
+                  - text: ","
+                  - code [ref=e182]: price
+                  - text: ","
+                  - code [ref=e183]: period
+                  - text: ","
+                  - code [ref=e184]: description
+                  - text: ","
+                  - code [ref=e185]: features
+                  - text: ","
+                  - code [ref=e186]: buttonText
+                  - text: ","
+                  - code [ref=e187]: buttonVariant
+                  - text: ", and"
+                  - code [ref=e188]: highlighted
+                  - text: props.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e189]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197] [cursor=pointer]:
+              - img [ref=e198]
+              - img [ref=e200]
+              - generic [ref=e202]: components
+            - generic [ref=e203]:
+              - generic [ref=e205] [cursor=pointer]:
+                - img [ref=e206]
+                - generic [ref=e211]: PricingCard.jsx
+              - generic [ref=e213] [cursor=pointer]:
+                - img [ref=e214]
+                - generic [ref=e219]: TestimonialCard.jsx
+          - generic [ref=e221] [cursor=pointer]:
+            - img [ref=e222]
+            - generic [ref=e227]: App.jsx
+        - separator [ref=e228]
+        - code [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e236]:
+              - generic [ref=e239]: "1"
+              - generic [ref=e241]: "2"
+              - generic [ref=e242]:
+                - generic [ref=e243] [cursor=pointer]: 
+                - generic [ref=e244]: "3"
+              - generic [ref=e245]:
+                - generic [ref=e246] [cursor=pointer]: 
+                - generic [ref=e247]: "4"
+              - generic [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]: 
+                - generic [ref=e250]: "5"
+              - generic [ref=e252]:
+                - generic [ref=e253] [cursor=pointer]: 
+                - generic [ref=e254]: "6"
+              - generic [ref=e255]:
+                - generic [ref=e256] [cursor=pointer]: 
+                - generic [ref=e257]: "7"
+              - generic [ref=e260]: "8"
+              - generic [ref=e262]: "9"
+              - generic [ref=e263]:
+                - generic [ref=e264] [cursor=pointer]: 
+                - generic [ref=e265]: "10"
+              - generic [ref=e267]: "11"
+              - generic [ref=e269]: "12"
+              - generic [ref=e271]: "13"
+              - generic [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]: 
+                - generic [ref=e274]: "14"
+              - generic [ref=e275]:
+                - generic [ref=e276] [cursor=pointer]: 
+                - generic [ref=e277]: "15"
+              - generic [ref=e279]: "16"
+              - generic [ref=e281]: "17"
+              - generic [ref=e283]: "18"
+              - generic [ref=e284]:
+                - generic [ref=e285] [cursor=pointer]: 
+                - generic [ref=e286]: "19"
+              - generic [ref=e288]: "20"
+              - generic [ref=e290]: "21"
+              - generic [ref=e292]: "22"
+              - generic [ref=e294]: "23"
+            - generic [ref=e425]:
+              - generic [ref=e427]: import PricingCard from '@/components/PricingCard';
+              - generic [ref=e430]: "export default function App() {"
+              - generic [ref=e432]: return (
+              - generic [ref=e434]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=e436]: from-slate-900 via-slate-800 to-slate-900 p-8">
+              - generic [ref=e438]: <div className="max-w-6xl mx-auto">
+              - generic [ref=e440]: <h1 className="text-4xl font-bold text-white mb-2
+              - generic [ref=e442]: text-center">
+              - generic [ref=e444]: Simple, Transparent Pricing
+              - generic [ref=e446]: </h1>
+              - generic [ref=e448]: <p className="text-slate-400 text-center mb-12">
+              - generic [ref=e450]: Choose the perfect plan for your needs
+              - generic [ref=e452]: </p>
+              - generic [ref=e455]: <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              - generic [ref=e457]: <PricingCard
+              - generic [ref=e459]: tier="Free"
+              - generic [ref=e461]: price="$0"
+              - generic [ref=e463]: description="Perfect for getting started"
+              - generic [ref=e465]: "features={["
+              - generic [ref=e467]: "'Up to 5 projects',"
+              - generic [ref=e469]: "'1 GB storage',"
+              - generic [ref=e471]: "'Basic support',"
+              - generic [ref=e473]: "'Community access',"
+            - textbox "Editor content" [ref=e475]
+  - alert [ref=e95]
+  - generic [ref=e96]:
+    - alert
+    - alert

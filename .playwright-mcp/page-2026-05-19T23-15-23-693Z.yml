@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e48]: create a testimonial card component with a modern design
+            - img [ref=e51]
+          - generic [ref=e54]:
+            - img [ref=e57]
+            - generic [ref=e62]:
+              - generic [ref=e65]: str_replace_editor
+              - separator [ref=e66]
+              - generic [ref=e69]: str_replace_editor
+              - separator [ref=e70]
+              - generic [ref=e71]:
+                - paragraph [ref=e72]: "Done! Created a modern testimonial card component with:"
+                - list [ref=e73]:
+                  - listitem [ref=e74]:
+                    - strong [ref=e75]: Gradient backgrounds
+                    - text: with hover effects
+                  - listitem [ref=e76]:
+                    - strong [ref=e77]: Star ratings
+                    - text: using lucide-react icons
+                  - listitem [ref=e78]:
+                    - strong [ref=e79]: Smooth animations
+                    - text: on hover
+                  - listitem [ref=e80]:
+                    - strong [ref=e81]: Author info
+                    - text: with profile image
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Decorative elements
+                    - text: like quote marks and gradient dividers
+                  - listitem [ref=e84]:
+                    - strong [ref=e85]: Responsive grid layout
+                    - text: in the demo
+                - paragraph [ref=e86]:
+                  - text: The component accepts
+                  - code [ref=e648]: name
+                  - text: ","
+                  - code [ref=e649]: role
+                  - text: ","
+                  - code [ref=e650]: company
+                  - text: ","
+                  - code [ref=e651]: image
+                  - text: ","
+                  - code [ref=e652]: text
+                  - text: ", and"
+                  - code [ref=e653]: rating
+                  - text: props.
+          - generic [ref=e103]:
+            - generic [ref=e106]: "Create a simple pricing card component with three tiers: Free, Pro, and Enterprise"
+            - img [ref=e109]
+          - generic [ref=e134]:
+            - img [ref=e137]
+            - generic [ref=e142]:
+              - generic [ref=e145]: str_replace_editor
+              - separator [ref=e146]
+              - generic [ref=e149]: str_replace_editor
+              - separator [ref=e150]
+              - generic [ref=e151]:
+                - paragraph [ref=e152]: "Done! Created a pricing card component with:"
+                - list [ref=e153]:
+                  - listitem [ref=e154]:
+                    - strong [ref=e155]: Three tiers
+                    - text: (Free, Pro, Enterprise) with customizable content
+                  - listitem [ref=e156]:
+                    - strong [ref=e157]: Highlighted Pro tier
+                    - text: with scale effect and blue gradient
+                  - listitem [ref=e158]:
+                    - strong [ref=e159]: Feature lists
+                    - text: with checkmark icons
+                  - listitem [ref=e160]:
+                    - strong [ref=e161]: Flexible button variants
+                    - text: (primary/secondary)
+                  - listitem [ref=e162]:
+                    - strong [ref=e163]: Responsive design
+                    - text: that stacks on mobile
+                  - listitem [ref=e164]:
+                    - strong [ref=e165]: Smooth hover effects
+                    - text: and transitions
+                - paragraph [ref=e166]:
+                  - text: The component accepts
+                  - code [ref=e654]: tier
+                  - text: ","
+                  - code [ref=e655]: price
+                  - text: ","
+                  - code [ref=e656]: period
+                  - text: ","
+                  - code [ref=e657]: description
+                  - text: ","
+                  - code [ref=e658]: features
+                  - text: ","
+                  - code [ref=e659]: buttonText
+                  - text: ","
+                  - code [ref=e660]: buttonVariant
+                  - text: ", and"
+                  - code [ref=e661]: highlighted
+                  - text: props.
+          - generic [ref=e662]:
+            - generic [ref=e665]: Create a simple user profile card with avatar, name, title, and a follow button
+            - img [ref=e668]
+          - generic [ref=e671]:
+            - img [ref=e674]
+            - generic [ref=e679]:
+              - generic [ref=e682]: str_replace_editor
+              - generic [ref=e683]:
+                - img [ref=e684]
+                - generic [ref=e686]: Generating...
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e647]:
+        
+  - alert [ref=e95]
+  - generic [ref=e96]:
+    - alert
+    - alert
