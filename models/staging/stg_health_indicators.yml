@@ -1,0 +1,89 @@
+version: 2
+
+models:
+  - name: stg_health_indicators
+    description: >
+      Cleaned and enriched health indicators from the World Bank Bronze layer.
+      One row per country, indicator, and year. Deduplicated and validated.
+
+    columns:
+      - name: country_code
+        description: "ISO 3-letter country code e.g. NZL, AUS, JPN"
+        data_tests:
+          - not_null
+
+      - name: country_name
+        description: "Full country name"
+        data_tests:
+          - not_null
+
+      - name: indicator_code
+        description: "World Bank indicator code"
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'SP.DYN.LE00.IN'
+                  - 'SP.DYN.IMRT.IN'
+                  - 'SH.DYN.MORT'
+                  - 'SP.DYN.AMRT.MA'
+                  - 'SH.TBS.INCD'
+                  - 'SH.DYN.AIDS.ZS'
+                  - 'SH.MLR.INCD.P3'
+                  - 'SH.STA.MMRT'
+                  - 'SH.STA.BRTC.ZS'
+                  - 'SH.IMM.IDPT'
+                  - 'SP.POP.GROW'
+                  - 'SP.URB.TOTL.IN.ZS'
+                  - 'SP.DYN.TFRT.IN'
+                  - 'SH.XPD.CHEX.GD.ZS'
+                  - 'SH.MED.PHYS.ZS'
+
+      - name: indicator_name
+        description: "Full indicator description from the World Bank API"
+        data_tests:
+          - not_null
+
+      - name: year
+        description: "Year of the data point"
+        data_tests:
+          - not_null
+
+      - name: value
+        description: "The numeric value for this indicator"
+        data_tests:
+          - not_null
+
+      - name: is_valid
+        description: "False if the value is negative, otherwise true"
+        data_tests:
+          - not_null
+
+      - name: sub_region
+        description: "Asia-Pacific sub-region derived from country code"
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Oceania'
+                  - 'Southeast Asia'
+                  - 'East Asia'
+                  - 'South Asia'
+                  - 'Central Asia'
+                  - 'Unknown'
+
+      - name: indicator_category
+        description: "Indicator category derived from indicator code"
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Mortality'
+                  - 'Disease'
+                  - 'Maternal & Child'
+                  - 'Population'
+                  - 'Health System'
+                  - 'Other'

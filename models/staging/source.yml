@@ -2,12 +2,19 @@ version: 2
 
 sources:
   - name: bronze
-    description: "Raw health data ingested from the World Bank API"
+    description: "Raw health and demographics data ingested from the World Bank API
+      by the Asia-Pacific Health Lens Python pipeline. Data covers 26
+      countries across five Asia-Pacific sub-regions and 15 health
+      indicators from 1960 to 2024.
+"
     database: APAC_HEALTH
     schema: BRONZE
     tables:
       - name: raw_health_indicators
-        description: "One row per country, indicator, and year from the World Bank API"
+        description: "One row per country, indicator, and year. Loaded by the
+          ingest agent in batches. May contain duplicates which are
+          resolved in the staging layer.
+"
         columns:
           - name: COUNTRY_CODE
             description: "ISO 3-letter country code e.g. NZL, AUS"
