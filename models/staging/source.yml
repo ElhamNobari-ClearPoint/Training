@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw health data ingested from the World Bank API"
+    database: APAC_HEALTH
+    schema: BRONZE
+    tables:
+      - name: raw_health_indicators
+        description: "One row per country, indicator, and year from the World Bank API"
+        columns:
+          - name: COUNTRY_CODE
+            description: "ISO 3-letter country code e.g. NZL, AUS"
+          - name: COUNTRY_NAME
+            description: "Full country name"
+          - name: INDICATOR_CODE
+            description: "World Bank indicator code e.g. SP.DYN.LE00.IN"
+          - name: INDICATOR_NAME
+            description: "Full indicator description"
+          - name: YEAR
+            description: "Year of the data point"
+          - name: VALUE
+            description: "The numeric value for this country, indicator, and year"
+          - name: LOAD_BATCH_ID
+            description: "Batch ID from the ingest pipeline"
+          - name: LOADED_AT
+            description: "When this row was loaded into Bronze"
